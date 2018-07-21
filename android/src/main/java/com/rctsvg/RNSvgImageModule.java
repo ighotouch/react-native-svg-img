@@ -17,6 +17,6 @@ public class RNSvgImageModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "RNSvgImage";
+    return "ISvgImage";
   }
 }

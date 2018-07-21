@@ -11,7 +11,7 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
 
 public class RNSvgImageManager extends SimpleViewManager<SVGImageView> {
-    public static final String REACT_CLASS = "RNSvgImage";
+    public static final String REACT_CLASS = "ISvgImage";
     @Override
     public String getName() {
         return REACT_CLASS;
