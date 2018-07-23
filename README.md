@@ -9,6 +9,11 @@
 
 `$ react-native link react-native-svg-img`
 
+#### IOS
+
+1. In Xcode, Go to `Build Phases` add `libxml2.tbd` in `Link binary with libraries`
+2. In Xcode, add `$(SRCROOT)/usr/include/libxml2` In Header Search Paths (Under search paths column in Build Settings)
+
 ### Manual installation
 
 
