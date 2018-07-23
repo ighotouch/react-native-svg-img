@@ -5,7 +5,7 @@ const iface = {
   name: 'ISvgImage',
   propTypes: {
     src: PropTypes.string,
-    ...ViewPropTypes, // include the default view properties
+    ...ViewPropTypes,
   },
 };
 
