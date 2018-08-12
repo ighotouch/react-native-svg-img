@@ -24,6 +24,7 @@
   "author": "",
   "license": "",
   "peerDependencies": {
+    "react": "^16.3.0-alpha.2",
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
   },
@@ -48,13 +49,15 @@
   },
   "dependencies": {
     "prop-types": "^15.6.2",
+    "react": "^16.3.0-alpha.2",
     "react-native": "^0.56.0"
   },
   "babel": {
     "presets": [
       "env",
       "stage-2"
-    ]
+    ],
+    "plugins": ["transform-react-jsx"]
   },
   "config": {
     "commitizen": {

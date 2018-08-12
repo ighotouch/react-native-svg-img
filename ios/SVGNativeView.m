@@ -8,6 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SVGNativeView.h"
 #import "SVGKit.h"
 #import "SVGKImage.h"
 
@@ -31,12 +32,10 @@
     if((self == [super init])){
         _eventDispatcher = eventDispatcher;
         
-        NSString* longURL = [NSString stringWithFormat:@"%@%@%@",
-                             @"http://upload.wikimedia.org/",
-                             @"wikipedia/commons/f/fd/",
-                             @"Ghostscript_Tiger.svg"];
+        NSString* longURL = [NSString stringWithFormat:@"%@",
+                             @"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 64.92201800042366' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'><line x1 = '20' y1 = '20' x2 = '200' y2 = '180' stroke = 'black' stroke-width = '3'/></svg>"];
         NSURL* url = [NSURL URLWithString:longURL];
-        _childView = [SVGKImage imageWithContentsOfURL:url];
+        _childView = [SVGKImage imageWithContentsOfFile:longURL];
         
         
         
@@ -49,6 +48,16 @@
 {
     [super layoutSubviews];
     self.image = _childView.UIImage;
+}
+
+- (void)setSrc:(NSString *)src {
+    printf("testing");
+    
+    NSString* longURL = [NSString stringWithFormat:@"%@",src];
+    NSURL* url = [NSURL URLWithString:longURL];
+    _childView = [SVGKImage imageWithContentsOfURL:url];
+    self.image = _childView.UIImage;
+    printf("%s", [src UTF8String]);
 }
 @end
 
