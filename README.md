@@ -5,6 +5,8 @@
 
 `$ npm install react-native-svg-img --save`
 
+Add `<uses-permission android:name="android.permission.INTERNET" />` to Manifest file on android
+
 ### Mostly automatic installation
 
 `$ react-native link react-native-svg-img`
