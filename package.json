@@ -57,7 +57,9 @@
       "env",
       "stage-2"
     ],
-    "plugins": ["transform-react-jsx"]
+    "plugins": [
+      "transform-react-jsx"
+    ]
   },
   "config": {
     "commitizen": {
