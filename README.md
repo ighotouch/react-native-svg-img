@@ -48,7 +48,7 @@ import SvgImageView from 'react-native-svg-img';
 // TODO: What to do with the module?
 SvgImageView;
 
-<ISvgImage
+<SvgImageView
 	width={200}
 	height={200}
 	source={require('./imagePath.svg')}
