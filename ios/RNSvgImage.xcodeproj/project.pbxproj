@@ -109,7 +109,6 @@
 		E0A7AEE12105DC510080CB1A /* CALayer+RecursiveClone.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7AED92105DC510080CB1A /* CALayer+RecursiveClone.m */; };
 		E0A7AEE22105DC510080CB1A /* SVGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7AEDA2105DC510080CB1A /* SVGGradientLayer.m */; };
 		E0A7AEE52105DCAE0080CB1A /* SVGKSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7AEE42105DCAE0080CB1A /* SVGKSource.m */; };
-		E0A7AF642105E3060080CB1A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A7AF632105E3060080CB1A /* libxml2.2.dylib */; };
 		E0A7AFA72105E6BF0080CB1A /* SVGNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A7AFA62105E6BF0080CB1A /* SVGNativeView.m */; };
 /* End PBXBuildFile section */
 
@@ -360,7 +359,6 @@
 		E0A7AEE42105DCAE0080CB1A /* SVGKSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGKSource.m; sourceTree = "<group>"; };
 		E0A7AEE72105DDA60080CB1A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		E0A7AF132105DE280080CB1A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		E0A7AF632105E3060080CB1A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		E0A7AFA62105E6BF0080CB1A /* SVGNativeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGNativeView.m; sourceTree = "<group>"; };
 		E0A7AFA82105E7030080CB1A /* SVGNativeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGNativeView.h; sourceTree = "<group>"; };
 		E0A7AFA92105E75E0080CB1A /* ISvgImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISvgImageManager.h; sourceTree = "<group>"; };
@@ -371,7 +369,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A7AF642105E3060080CB1A /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +724,6 @@
 		E0A7AEE62105DDA60080CB1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0A7AF632105E3060080CB1A /* libxml2.2.dylib */,
 				E0A7AF132105DE280080CB1A /* libxml2.2.tbd */,
 				E0A7AEE72105DDA60080CB1A /* libxml2.tbd */,
 			);
