@@ -5,6 +5,7 @@ import ISvgImage from './ISvgImage';
 
 export const SvgImageView = ({ height, source, width }) => {
   const src = Image.resolveAssetSource(source);
+  if (!src) return null;
   return (
     <ISvgImage
       style={{ height, width }}
