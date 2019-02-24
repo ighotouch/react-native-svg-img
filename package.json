@@ -1,7 +1,7 @@
 {
   "name": "react-native-svg-img",
   "version": "1.1.2-semantically-released",
-  "description": "React native svg image view",
+  "description": "React native svg image view.",
   "main": "build/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -23,7 +23,9 @@
   ],
   "author": "",
   "license": "",
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react-native": "^0.56.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -45,8 +47,7 @@
   },
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.3.0-alpha.2",
-    "react-native": "^0.56.0"
+    "react": "^16.3.0-alpha.2"
   },
   "babel": {
     "presets": [
