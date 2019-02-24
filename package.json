@@ -2,14 +2,14 @@
   "name": "react-native-svg-img",
   "version": "1.1.2-semantically-released",
   "description": "React native svg image view.",
-  "main": "build/index.js",
+  "main": "src/index.jsx",
   "scripts": {
     "commit": "git-cz",
     "prebuild": "rimraf build",
     "build": "babel src --copy-files -d build --ignore *.test.js",
     "test": "echo 'pass'",
     "lint": "eslint .",
-    "validate": "npm-run-all --parallel lint",
+    "validate": "npm-run-all --parallel",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },

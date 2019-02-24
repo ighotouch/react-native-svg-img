@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import PropTypes from 'prop-types';
 import { requireNativeComponent, ViewPropTypes } from 'react-native';
 
