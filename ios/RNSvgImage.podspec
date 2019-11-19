@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNSvgImage
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://www.npmjs.com/package/react-native-svg-img"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
